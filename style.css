@@ -1,0 +1,11 @@
+body {
+  background-image: url("img/bcgrnd-dskt.jpg");
+  background-size: cover;
+}
+
+p {
+	font-family: impact;
+	font-size: 120px;
+	color: #FFFFFF;
+	text-shadow: #CCC 15px 15px 5px; 
+}
