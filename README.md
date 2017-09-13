@@ -9,7 +9,7 @@ La page html doit correspondre au design présenté dans la maquette.
 2. Ajouter un export PNG ou PPG de votre maquette (une image par ecran)
 3. créer vos fichier html et css
 4. N'oublier d'intégrer de façon responsive
-5. generer une githubpage
+5. generer une github page ()
 5. quand vous avez fini, ajouter un commentaire `FINI !! - ${url_de_la_github_page}`
 
 Pour cette exercice, vous ne devez aucun framework css (bootstrap, materialize, semantic-ui, ...)
