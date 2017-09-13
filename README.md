@@ -7,7 +7,7 @@ La page html doit correspondre au design présenté dans la maquette.
 
 1. Forker ce repo
 2. Ajouter un export PNG ou PPG de votre maquette (une image par ecran)
-3. créer vos fichier html et css
+3. Créer vos fichier html et css
 4. N'oublier d'intégrer de façon responsive
 5. Generer une github page
   * Methode rapide (à l'arrache) ![github pages](https://guides.github.com/features/pages/launch-theme-chooser.png)
