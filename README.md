@@ -11,7 +11,7 @@ La page html doit correspondre au design présenté dans la maquette.
 4. N'oublier d'intégrer de façon responsive
 5. generer une github page
   * Methode rapide (à l'arrache) ![github pages](https://guides.github.com/features/pages/launch-theme-chooser.png)
-  * [methode propre](https://www.thinkful.com/learn/a-guide-to-using-github-pages/start/existing-project/project-page/existing-repo/) 
+  * [methode propre](https://www.thinkful.com/learn/a-guide-to-using-github-pages/start/existing-project/project-page/existing-repo/) en créant une branche gh-pages.
 6. quand vous avez fini, ajouter un commentaire `FINI !! - ${url_de_la_github_page}`
 
 Pour cette exercice, vous ne devez aucun framework css (bootstrap, materialize, semantic-ui, ...)
