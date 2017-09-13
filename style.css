@@ -1,6 +1,8 @@
 body {
+  background-color: #FFF;
   background-image: url("img/bcgrnd-dskt.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 p {
@@ -9,3 +11,22 @@ p {
 	color: #FFFFFF;
 	text-shadow: #CCC 15px 15px 5px; 
 }
+
+
+/* Mobile PORTRAIT */
+@media only screen and (max-width: 667px) and (min-width: 375px) and (orientation: portrait){
+    body {
+      background-image: url("img/bcgrnd-ip7.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  } 
+
+ /* Mobile LANDSCAPE */
+@media only screen and (max-width: 667px) and (min-width: 375px) and (orientation: landscape){
+    body {
+      background-image: url("img/bcgrnd-ip7-H2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  } 
