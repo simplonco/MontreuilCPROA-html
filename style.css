@@ -14,7 +14,11 @@ p {
 
 
 /* Mobile PORTRAIT */
-@media only screen and (max-width: 667px) and (min-width: 375px) and (orientation: portrait){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     body {
       background-image: url("img/bcgrnd-ip7.jpg");
       background-size: cover;
@@ -23,7 +27,11 @@ p {
   } 
 
  /* Mobile LANDSCAPE */
-@media only screen and (max-width: 667px) and (min-width: 375px) and (orientation: landscape){
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
     body {
       background-image: url("img/bcgrnd-ip7-H2.jpg");
       background-size: cover;
