@@ -85,10 +85,14 @@ button {
     height: 375px; 
   }
 
+h1 {
+  margin-top:0%;
+}
+
 .container-login {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
