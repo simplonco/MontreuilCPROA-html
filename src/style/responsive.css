@@ -1,110 +1,141 @@
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
+    .header h1{
+        font-size: 3em;
+    }
+    .login-Et h3{
+        font-size: 1.80em;
+    }
+    input {
+        width: 23em!important;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 22em;
-        margin-top: 9em;
-    }
-    .App{
-        font-size: 14px;
-    }
-    h3{
-        top: -7em;
-    }
+        width: 15em;
+        margin: 0 auto; 
+      }
 }
-
-
 
 @media only screen
 and (min-device-width: 414px)
 and (max-device-width: 736px) {
+    .header h1{
+        font-size: 3em;
+    }
+    .login-Et h3{
+        font-size: 1.80em;
+    }
+    input {
+        width: 27em!important;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 25em;
-        margin-top: 9em;
-    }
-    .App{
-        font-size: 16px;
-    }
-    h3{
-        top: -7em;
-    }
+        width: 15em;
+        margin: 0 auto; 
+      }
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
+    .header h1{
+        font-size: 3em;
+    }
+
+    .login-Et h3{
+        font-size: 1.60em;
+    }
+    input {
+        width: 19.4em;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 17em;
-        margin-top: 9em;
-    }
-    .App{
-        font-size: 16px;
-    }
-    h3{
-        top: -7em;
-    }
-    }
+        width: 13em;
+        margin: 0 auto; 
+      }
+}
 
 
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) {
+    .header h1{
+        font-size: 3.5em;
+    }
+    .login-Et h3{
+        font-size: 1.80em;
+    }
+    input {
+        width: 36em!important;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 50%;
-        margin-top: 5em;
-    }
-    .App{
-        font-size: 24px;
-    }
-    h3{
-        top: -7em;
-    }
+        width: 19em;
+        margin: 0 auto; 
+      }
+
 }
 
 @media only screen 
 and (min-device-width: 665px) 
 and (max-device-width: 808px) {
+    .header h1{
+        font-size: 3.4em;
+    }
+    .login-Et h3{
+        font-size: 1.80em;
+    }
+    input {
+        width: 25em;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 50%;
-        margin-top: 5em;
-    }
-    .App{
-        font-size: 24px;
-    }
-    h3{
-        top: -7em;
-    }
+        width: 15em;
+        margin: 0 auto; 
+      }
 }
 
 @media only screen 
 and (min-device-width: 50px) 
 and (max-device-width: 379px) {
+    .header h1{
+        font-size: 3em;
+    }
+    .login-Et h3{
+        font-size: 1.80em;
+    }
+    input {
+        width: 20em;
+    }
     .login-btn{
-        width: 14em;
-    }
-    .elements-Handler{
-        width: 80%;
-        margin-top: 5em;
-    }
-    .App{
-        font-size: 24px;
-    }
-    h3{
-        top: -7em;
-    }
+        width: 12em;
+        margin: 0 auto; 
+      }
 }
+
+@media only screen 
+and (min-device-width: 488px) 
+and (max-device-width: 666px) {
+    .header h1{
+        font-size: 2.3em;
+    }
+    input {
+        width: 28em;
+    } 
+    .login-btn{
+        width: 15em;
+        margin: 0 auto; 
+      } 
+}
+
+@media only screen 
+and (min-device-width: 666px) 
+and (max-device-width: 900px) {
+    .header h1{
+        font-size: 2.3em;
+    }
+    input {
+        width: 34em;
+    } 
+    .login-btn{
+        width: 15em;
+        margin: 0 auto; 
+      } 
+}
+

@@ -5,17 +5,22 @@ import '../style/responsive.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Pochette</h1>
-        <div className='elements-Handler'>
-        <h3>LOGIN</h3>
+      <section className="App">
+        <header className="header">
+          <h1>Pochette</h1>
+        </header>
+        <div className='content'>
+          <div className="login-Et">
+            <h3>Login</h3>
+          </div>
+          <br/>
           <input className='email' type='email' placeholder='Email'/>
           <br/>
           <input className='password' type='password' placeholder='Password'/>
           <br/>
           <button className='login-btn'>Login</button>
         </div>
-      </div>
+      </section>
     );
   }
 }
