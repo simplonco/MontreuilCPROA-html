@@ -38,24 +38,41 @@ input {
   border-right: none;
   border-left: none;
 }
-
-@media (min-width: 320px) {
-  .app-name {
-    font-size: 2em;
-  }
-  .sub-menu {
-    font-size: 1.5em;
-  }
-  input {
-    width: 75%;
-    height: 1.3em;
-    font-size: 1.3em;
-  }
-  button {
-    width: 75%;
-    height: 1.7em;
-    font-size: 1.3em;
-  }
+.app-name {
+  font-size: 2em;
+}
+.sub-menu {
+  font-size: 1.5em;
+}
+input {
+  width: 75%;
+  height: 1.3em;
+  font-size: 1.3em;
+}
+button {
+  width: 75%;
+  height: 1.7em;
+  font-size: 1.3em;
+}
+.mdp-oublié {
+  font-size: 1.3em;
+  width: 87%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+button {
+  background: blue;
+  color: white;
+  border: none;
+}
+.mdp-oublié {
+  display: flex;
+  justify-content: flex-end;
+  color: blue;
+  padding-top: 2em;
 }
 
 @media (min-width: 480px) {
@@ -75,32 +92,18 @@ input {
     height: 1.5em;
     font-size: 1.5em;
   }
+  .mdp-oublié {
+    font-size: 1.3em;
+    width: 87%;
+  }
 }
-
 @media (min-width: 768px) {
   .app-name {
-    font-size: 2.5em;
-  }
-  .sub-menu {
-    font-size: 1.5em;
-  }
-  input {
-    width: 75%;
-    height: 1.5em;
-    font-size: 1.5em;
-  }
-  button {
-    width: 75%;
-    height: 1.5em;
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 992px) {
-  sub-menu {
-    height: 3em;
     font-size: 3em;
   }
+  .sub-menu {
+    font-size: 2em;
+  }
   input {
     width: 75%;
     height: 1.5em;
@@ -111,8 +114,31 @@ input {
     height: 1.5em;
     font-size: 1.5em;
   }
+  .mdp-oublié {
+    font-size: 1.3em;
+    width: 87%;
+  }
 }
-
+@media (min-width: 992px) {
+  sub-menu {
+    height: 2em;
+    font-size: 2em;
+  }
+  input {
+    width: 75%;
+    height: 2em;
+    font-size: 2em;
+  }
+  button {
+    width: 75%;
+    height: 2em;
+    font-size: 2em;
+  }
+  .mdp-oublié {
+    font-size: 1.3em;
+    width: 87%;
+  }
+}
 @media (min-width: 1200px) {
   input {
     width: 40%;
@@ -126,46 +152,9 @@ input {
   }
   .mdp-oublié {
     font-size: 1.3em;
+    width: 70%;
   }
 }
-
-.btn {
-  display: flex;
-  justify-content: center;
-  padding-top: 2em;
-}
-button {
-  background: blue;
-  color: white;
-  border: none;
-}
-.mdp-oublié {
-  display: flex;
-  justify-content: center;
-  color: blue;
-  padding-top: 2em;
-}
-
-/*@media (max-width: 100%) {
-  main {
-    width: 95%;
-  }
-  input{
-    width: 60%;
-  }
-}
-
-@media (max-width: 480px) {
-    main {
-        width:95%;
-    }
-    input[type=text], textarea {
-        width:75%;
-    }
-}*/
-
-
-
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
