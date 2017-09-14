@@ -86,14 +86,14 @@ button {
   }
 
 h1 {
-  margin-top:0%;
+  margin-top:2%;
 }
 
 .container-login {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   height: 100%;
 }
 
