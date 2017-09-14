@@ -1,0 +1,77 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Century Gothic", helvetica, arial, sans-serif;
+  font-size: 1.4em;
+  /* equiv 14px */
+  line-height: 1.5;
+  /* adapt to your design */ }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #9B51E0; }
+  header div p {
+    margin: 0;
+    padding: 150px 10px 10px 10px;
+    color: white; }
+  header nav {
+    background-color: #E6CEEF;
+    padding: 20px;
+    display: flex;
+    justify-content: center; }
+    header nav .topnav a {
+      text-decoration: none;
+      padding: 10px;
+      color: #9B51E0; }
+    header nav .topnav .icon {
+      display: none; }
+    header nav .menu {
+      display: none;
+      justify-content: center;
+      list-style: none;
+      margin: 0; }
+      header nav .menu li {
+        padding-left: 20px; }
+        header nav .menu li a {
+          text-decoration: none;
+          color: #9B51E0; }
+    header nav .btn-menu {
+      display: none; }
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center; }
+  .container form .btn-email {
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #BB6BD9;
+    width: 200px;
+    margin-bottom: 20px; }
+  .container form .btn {
+    display: block;
+    width: 200px;
+    background-color: #9B51E0;
+    padding: 5px;
+    color: white;
+    border: 2px solid #9B51E0;
+    border-radius: 3px; }
+  .container form p {
+    text-align: center; }
+
+@media all and (max-width: 768px) {
+  nav .topnav a:not(.icon) {
+    display: none; }
+  nav .icon {
+    display: block; } }
+/* FINI */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+// PALETTE COULEUR //
+$violet:#9B51E0;
+$violet1:#E6CEEF;
+$violet2:#BB6BD9;
+$white:white;
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Century Gothic", helvetica, arial, sans-serif;
+    font-size: 1.4em; /* equiv 14px */
+    line-height: 1.5; /* adapt to your design */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: $violet;
+    div {
+        p {
+            margin: 0;
+            padding: 150px 10px 10px 10px;
+            color: $white;
+            
+        }
+    }
+    nav {
+        background-color: $violet1;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        .topnav {
+            a {
+                text-decoration: none;
+                padding: 10px;
+                color: $violet;
+            }
+            .icon{
+                display: none;
+            }
+        }
+        .menu {
+            display: none;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            li {
+                padding-left:20px;
+                
+                a {
+                    text-decoration: none;
+                    color: $violet;
+                }
+            }
+            
+        }
+        .btn-menu{
+            display: none;
+        }
+        
+    }
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    form {
+        .btn-email{
+            display: block;
+            border-top: none;
+            border-left: none;
+            border-right:none;
+            border-bottom: 2px solid $violet2;
+            width: 200px;
+            margin-bottom: 20px;
+            
+        }
+        .btn{
+            display: block;
+            width: 200px;
+            background-color: $violet;
+            padding: 5px;
+            color: $white;
+            border: 2px solid $violet;
+            border-radius: 3px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    
+}
+@media all and (max-width:768px){
+    nav {
+        .topnav a:not(.icon) {
+            display: none;  
+        }
+        .icon{
+            display: block;
+        }
+    }
+}
+/* FINI */
