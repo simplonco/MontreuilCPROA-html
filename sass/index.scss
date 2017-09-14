@@ -1,0 +1,372 @@
+@import'./../reset.scss';
+@import './../media-queries.scss';
+
+@include smartphone{
+  .header-container{
+     height: 30vh;
+     width: 100%;
+     background-color: red;
+     display: flex;
+     flex-wrap: wrap;
+     .icons{
+       height: 6vh;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       margin-left: 1em;
+       margin-right: 1em;
+       .icon1{
+         display: flex;
+         justify-content: space-between;
+         height: 3vh;
+         width: 5rem;
+         align-items: center;
+         #gs{
+           font-size: 12px;
+         }
+       }
+       .icon2{
+         #hour{
+           font-size: 3vh;
+         }
+       }
+       .icon3{
+         display: flex;
+          height: 3vh;
+          width: 5rem;
+          justify-content: space-between;
+       }
+     }
+     .title-img-header{
+      display: flex;
+      height: 45vh;
+      width: 75%;
+      justify-content: space-around;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      .title{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 20vh;
+        width: 50%;
+        #title-pocketto{
+          margin-right: 1rem;
+          color:#FFFFFF;
+        }
+      }
+      .img-profile-container{
+        height: 23vh;
+        width:44%;
+        border-radius: 100%;
+        background-image: url(./../Assets/logoChiot.jpg);
+        background-size: cover;
+        margin-top: 1vh;
+      }
+     }
+   }
+   .body-container{
+     height: 50vh;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding-top: 10vh;
+     .Login-password{
+       display: flex;
+       height: 16vh;
+       width: 100%;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-between;
+       .authentication-input{
+         border: none;
+         border-bottom: 2px solid #DDDDDD;
+       }
+       .passwordForgot{
+         display: flex;
+         justify-content: flex-end;
+         height: 3vh;
+         width: 10em;
+         .linkNewPassword{
+           a{
+             font-size: 10px;
+           }
+         }
+       }
+     }
+     .buttonText{
+       display: flex;
+       justify-content: center;
+       height: 20vh;
+       width: 100%;
+       flex-direction: column;
+       align-items: center;
+       button{
+          height: 10vh;
+          width: 10rem;
+          background-color: red;
+       }
+       .linkAccount{
+         a{
+           font-size: 10px;
+       }
+     }
+   }
+  }
+}
+@include ipad{
+  .header-container{
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    .icons{
+      height: 6vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 1em;
+      margin-right: 1em;
+      align-items: center;
+      .icon1{
+        display: flex;
+        justify-content: space-between;
+        height: 5vh;
+        width: 7rem;
+        align-items: center;
+        #gs{
+          font-size: 20px;
+        }
+      }
+      .icon2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #hour{
+          font-size: 2vh;
+        }
+      }
+      .icon3{
+        display: flex;
+         height: 3vh;
+         width: 7rem;
+         justify-content: space-between;
+         align-items: center;
+      }
+    }
+    .title-img-header{
+     display: flex;
+     height: 45vh;
+     width: 75%;
+     justify-content: space-around;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     .title{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       height: 20vh;
+       width: 50%;
+       #title-pocketto{
+         margin-right: 1rem;
+         color:#FFFFFF;
+         font-size: 30px;
+       }
+     }
+     .img-profile-container{
+       height: 23vh;
+       width:44%;
+       border-radius: 100%;
+       background-image: url(./../Assets/logoChiot.jpg);
+       background-size: cover;
+       margin-top: 1vh;
+     }
+    }
+  }
+  .body-container{
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 13vh;
+    .Login-password{
+      display: flex;
+      height: 16vh;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      .authentication-input{
+        border: none;
+        border-bottom: 2px solid #DDDDDD;
+        width: 20rem;
+      }
+      .passwordForgot{
+        display: flex;
+        justify-content: flex-end;
+        height: 3vh;
+        width: 20em;
+        .linkNewPassword{
+          a{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .buttonText{
+      display: flex;
+      justify-content: center;
+      height: 10vh;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      button{
+         height: 7vh;
+         width: 20rem;
+         background-color: red;
+         .login{
+           font-size: 20px;
+           color: #FFFFFF;
+         }
+      }
+      .linkAccount{
+        a{
+          font-size: 15px;
+      }
+    }
+  }
+ }
+}
+@include desktop{
+  .header-container{
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    .icons{
+      height: 6vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 1em;
+      margin-right: 1em;
+      align-items: center;
+      .icon1{
+        display: flex;
+        justify-content: space-between;
+        height: 5vh;
+        width: 7rem;
+        align-items: center;
+        #gs{
+          font-size: 20px;
+        }
+      }
+      .icon2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #hour{
+          font-size: 2vh;
+        }
+      }
+      .icon3{
+        display: flex;
+         height: 3vh;
+         width: 7rem;
+         justify-content: space-between;
+         align-items: center;
+      }
+    }
+    .title-img-header{
+     display: flex;
+     height: 45vh;
+     width: 75%;
+     justify-content: space-around;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     .title{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       height: 20vh;
+       width: 50%;
+       #title-pocketto{
+         margin-right: 1rem;
+         color:#FFFFFF;
+         font-size: 30px;
+       }
+     }
+     .img-profile-container{
+       height: 23vh;
+       width:30%;
+       border-radius: 100%;
+       background-image: url(./../Assets/logoChiot.jpg);
+       background-size: cover;
+       margin-top: 1vh;
+     }
+    }
+  }
+  .body-container{
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 13vh;
+    .Login-password{
+      display: flex;
+      height: 16vh;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      .authentication-input{
+        border: none;
+        border-bottom: 2px solid #DDDDDD;
+        width: 20rem;
+      }
+      .passwordForgot{
+        display: flex;
+        justify-content: flex-end;
+        height: 3vh;
+        width: 20em;
+        .linkNewPassword{
+          a{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .buttonText{
+      display: flex;
+      justify-content: center;
+      height: 10vh;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      button{
+         height: 7vh;
+         width: 20rem;
+         background-color: red;
+         .login{
+           font-size: 20px;
+           color: #FFFFFF;
+         }
+      }
+      .linkAccount{
+        a{
+          font-size: 15px;
+      }
+    }
+  }
+ }
+}
