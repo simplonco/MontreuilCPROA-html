@@ -1,0 +1,43 @@
+body{
+  font-family: Roboto;
+  font-style: Regular;
+}
+.App {
+  text-align: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 2em;
+}
+
+.elements-Handler {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.login-btn{
+  width: 28em;
+  margin: 0 auto; 
+}
+h3{
+  color: #828282;
+}
+input{
+  background: #F0F0F0;
+  border: none;
+  border-radius: 0.50em;
+  height: 3em;
+  color: grey;
+  text-align: left;
+  font-size: 14px;
+}
+
+button{
+  background: #007AFF;
+  border: none;
+  border-radius: 0.50em;
+  height: 3em;
+  color: white;
+  font-size: 14px;
+}
