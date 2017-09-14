@@ -1,9 +1,8 @@
 body {
   background-color: #FFF;
   background-image: url("img/bcgrnd-dskt.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
 }
 
 h1 {
