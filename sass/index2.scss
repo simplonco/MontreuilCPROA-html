@@ -1,0 +1,100 @@
+@import'./../reset.scss';
+@import './../media-queries.scss';
+
+@include smartphone{
+  .header-container-page2{
+    background-color: red;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+  }
+  .body-container{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: flex-end;
+    .sub-container-page2{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 30vh;
+      justify-content: space-between;
+      .emailAdress{
+        height: 5vh;
+        width: 20em;
+      }
+      .button-page2{
+        height: 8vh;
+        width: 15em;
+        background-color: red;
+        border: none;
+        p{
+          color:#FFFFFF;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@include ipad{
+  .header-container-page2{
+    background-color: red;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+    .title-page2{
+      p{
+      font-size: 30px;
+      color: #FFFFFF;
+      }
+    }
+  }
+  .body-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: flex-end;
+    .sub-container-page2{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 30vh;
+      justify-content: space-between;
+      input::placeholder{
+      font-size: 30px;
+      line-height: 3;
+      }
+      .emailAdress{
+        height: 8vh;
+        width: 40em;
+      }
+      .emailSend{
+        font-size:20px;
+      }
+      .button-page2{
+        height: 8vh;
+        width: 30em;
+        background-color: red;
+        border: none;
+        p{
+          color:#FFFFFF;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
