@@ -18,6 +18,10 @@ class App extends Component {
           <br/>
           <input className='password' type='password' placeholder='Password'/>
           <br/>
+          <div className="forgot-link">
+            <a href="/">Forgot Password ?</a>
+          </div>
+          <br/>
           <button className='login-btn'>Login</button>
         </div>
       </section>
