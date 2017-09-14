@@ -1,0 +1,105 @@
+.container {
+  margin: -8px;
+  height: 735px; }
+
+.sign-in {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main-content h2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px; }
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px; }
+
+.input {
+  width: 600px; }
+
+.input input {
+  width: 600px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 20px; }
+
+.input label {
+  font-size: 15px; }
+
+.input button {
+  width: 605px;
+  height: 35px;
+  font-size: 20px; }
+
+.account-help {
+  margin-top: 60px;
+  margin-left: 100px;
+  color: blue;
+  font-size: 15px; }
+
+.account-help p {
+  margin-bottom: -10px; }
+
+@media screen and (max-width: 1024px) {
+  .input {
+    width: 80%;
+    margin-left: 15%; }
+  .input input {
+    width: 80%; }
+  .main-content h2 {
+    color: white; }
+  .input label {
+    color: white; }
+  .input button {
+    width: 81%;
+    background-color: grey;
+    height: 45px; }
+  .container {
+    background-image: url(profil.snap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px; }
+  .account-help {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 17%;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    font-size: 25px; } }
+
+@media screen and (max-width: 414px) {
+  .input {
+    width: 90%;
+    margin-left: 8%; }
+  .input input {
+    width: 90%; }
+  .input button {
+    width: 91%;
+    height: 40px;
+    background-color: grey; }
+  .main-content h2 {
+    color: white; }
+  .input label {
+    color: white; }
+  .main-content {
+    margin-top: 0; }
+  .account-help {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+    font-size: 15px; }
+  .container {
+    background-image: url(profil.snap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; } }
