@@ -1,0 +1,23 @@
+{
+  "name": "montreuilcproa-html",
+  "version": "1.0.0",
+  "description": "Integrer une maquette en html / css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass-chokidar ./index.scss -o ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paljor129/MontreuilCPROA-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paljor129/MontreuilCPROA-html/issues"
+  },
+  "homepage": "https://github.com/Paljor129/MontreuilCPROA-html#readme",
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3"
+  }
+}
