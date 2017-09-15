@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  background-color: #00BBD3; }
+  .header h1 {
+    font-size: 1.5em;
+    color: white; }
+  .header .header-page_title {
+    background-color: #FAFAFA; }
+
+.content input {
+  border: none;
+  font-size: 1em; }
+
+.content div[role=button] {
+  font-size: 0.875em; }
+
+.content .content-forget_mdp {
+  font-size: 0.875em;
+  color: #00BBD3; }

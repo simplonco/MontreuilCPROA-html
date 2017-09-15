@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$browser-context: 16; // Default
+$green: #00BBD3;
+$grey: #FAFAFA;
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
+body {
+  font-family:  'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $green;
+
+  .header-website_name {
+      height: 30vh;
+  }
+
+  h1 {
+    font-size: em(24);
+    color: white;
+  }
+
+  .header-page_title {
+
+    // height: 20%;
+    background-color: $grey;
+  }
+}
+
+.content {
+
+  input {
+    border: none;
+    font-size: em(16)
+  }
+
+  div[role=button] {
+    font-size: em(14)
+  }
+
+  .content-forget_mdp {
+    font-size: em(14);
+    color: #00BBD3;
+  }
+
+}
