@@ -31,8 +31,10 @@ npm install --save node-sass-chokidar
 Dans package.json, ajouter une clé/valeur dans l'object "script" : 
 
 - cf. package.json
-- "sass" : "node-sass-chokidar ./ -o ./style.css"
-- "sass-watch" : "node-sass-chokidar ./ -o ./style.css --watch"
+
+"sass": "node-sass-chokidar ./style.scss --output ./",
+    
+"sass-watch": "node-sass-chokidar ./style.scss --output ./ --watch"
 
 ça permet de creer des fichier .css à partir de fichier .scss
 
