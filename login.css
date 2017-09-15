@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,a {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+
+::-webkit-input-placeholder { 
+   font-size: 15pt; 
+   padding-left: 35px;
+   background-repeat: no-repeat;
+   background-image: url(user.png);
+
+ 
+}
+
+.wrapper{
+   width: 100vw;
+   background:#e9e9e9;
+   height: 100vh;
+}
+
+
+.login-header{
+	width: 100vw;
+	height: 300px; 
+	background-image: url(bg.png);  
+	background-size: 100%;
+
+   
+}
+
+.login-header h1{
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 220px;
+	margin-left: 10px;
+	
+}
+
+.login-form{
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	background: #fff;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	max-width: 400px;
+	width: 80%;
+	height: 50px;
+}
+
+
+
+.login-form input[type="button"] {
+	max-width: 400px;
+	width: 80%;
+	height: 50px;
+	font-size: 30px;
+	color: #fff;
+	background: #33b5e5;
+	border: none;
+	text-transform: uppercase;
+}
+
+.login-form h1{
+    text-transform: uppercase;
+    padding-bottom: 24px;
+    padding-top: 50px;
+    color: #33b5e5;
+}
+
+.login-form h3{
+	color: #33b5e5;
+}
+
+.login-form .compte {
+	font-size: 20px;
+	padding-right: 70px;
+
+}
+
+
+.login-form .pass{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.login-form input[type="text"],
+.login-form input[type="password"] {
+		width: 100%px;
+		margin: 0 auto;
+	}
+
+    .login-header h1{
+		text-transform: uppercase;
+		text-align: center;
+	}
+	
+    
+}
+
+@media screen and (max-width: 768px) {
+
+	input{
+		width: 200px;
+		margin: 0 auto;
+    }
+
+    .login-form h1{
+
+    	text-align: right;
+    	padding-right: 3em;
+    }
+
+}
+
+
+@media screen and (max-width: 1028px) {
+
+	input{
+		width: 400px;
+		
+    }
+}
+
+
+
+
