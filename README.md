@@ -25,6 +25,7 @@ Bon courage !
 ## Utilisation de SASS avec Node-sass-chokidar
 
 npm init
+
 npm install --save node-sass-chokidar
 
 Dans package.json, ajouter une clé/valeur dans l'object "script" : 
