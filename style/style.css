@@ -55,6 +55,17 @@ header {
     padding : 2em;
 }
 
+.center-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container {
+    width: 100%;
+}
+
 .form-content {
     display: flex;
     flex-direction: column;
@@ -95,8 +106,9 @@ header {
 }
 
 
-@media (min-width: 800) {
-    .main-header {
-        background-color: #FF0;
+@media (min-width: 750px) {
+    .form-container {
+        width: 70%;
     }
+        
 }
