@@ -18,6 +18,14 @@
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
             </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="">Home</a><span></span></li>
+                    <li><a href="">Offers</a><span></span></li>
+                    <li><a href="">About</a><span></span></li>
+                    <li><a href="" active>Login</a><span></span></li>
+                </ul>
+            </nav>
         </div>
         <div class="page-title-container">
             <h2>Sign-in</h2>
@@ -27,8 +35,14 @@
         <div class="center-children">
             <div class="form-container">
                 <form class="form-content" action="">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Password">
+                    <div class="material-input">
+                        <label class="material-label" for="email">Email</label>
+                        <input class="material-input" type="text" name="email">
+                    </div>
+                    <div class="material-input">
+                        <label class="material-label" for="password">Password</label>
+                        <input class="material-input" type="text" name="password">
+                    </div>
                     <button>Sign in</button>
                 </form>
                 <div class="link-bar">
@@ -39,28 +53,34 @@
         </div>
     </main>
     <footer>
-        <nav>
+        <nav class="footer-nav">
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>Conditions</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Offers</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
             </ul>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>Find us</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Offers</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
             </ul>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>Contact us</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Offers</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Login</a></li>
             </ul>
         </nav>
+        <hr>
     </footer>
 
+
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
