@@ -1,0 +1,27 @@
+@mixin placeholder($color, $colorFocus) {
+  input:focus::-webkit-input-placeholder {
+    color: $colorFocus;
+  }
+  input:focus::-moz-placeholder {
+    color: $colorFocus;
+  }
+  input:focus:-ms-input-placeholder {
+    color: $colorFocus;
+  }
+  input:focus:-moz-placeholder {
+    color: $colorFocus;
+  }
+
+  ::-webkit-input-placeholder {
+    color: $color;
+  }
+  ::-moz-placeholder {
+    color: $color;
+  }
+  :-ms-input-placeholder {
+    color: $color;
+  }
+  :-moz-placeholder {
+    color: $color;
+  }
+}
