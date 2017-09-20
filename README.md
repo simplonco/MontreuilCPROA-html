@@ -1,4 +1,7 @@
 # MontreuilCPROA-html
+
+# Cher formateur veuillez vous référer à la ligne 234 de style.scss merci.
+
 Integrer une maquette en html / css
 
 A partir de la maquette que vous avez créé avec un outils de design (cf. competence 01), vous devez faire l'intégration HTML / CSS de cette maquette.
