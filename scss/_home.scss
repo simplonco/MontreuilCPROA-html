@@ -1,0 +1,57 @@
+
+$secondary-color : #ED7171;
+
+.headerHome {
+    background-image: url('./../Images/IMG_20170815_195146.jpg');
+    background-position: center center;
+    background-size: 127%;
+    height: 238px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerHome h1 {
+    color: $secondary-color;
+    font-size: 2.4em;
+    line-height: 40px;
+}
+
+.containerHome {
+    width: 80%;
+    // border: black 3px solid;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-intro {
+    margin-top: 30px;
+    font-size: 0.7em;
+}
+
+.greenBar {
+    width: 35%;
+    height: 6px;
+    border-radius: 40px;
+    border: none;
+    background: #468DBA;
+    margin: 30px;
+}
+
+.containerCards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerCards {
+    .card {
+        border: black solid 2px;
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,8 +1,63 @@
-body, h1, h2, h3, h4, input, form {
-    margin: 0;
-    padding: 0;
+@import '_home';
+
+
+/* RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* /////////////////////////////////////*/
+
+body {
     font-family: 'Hind', sans-serif;
 }
+
 
 h1 {
     letter-spacing: 1.3px;
@@ -22,11 +77,15 @@ h3 {
     font-weight: 100;
 }
 
+// VARIABLE //
+
+$primary-color: #FD9007;
+
 /*//////////// FORM ////////////*/
 
 #headerTp {
     height: 248px;
-    background-image: url('Images/IMG_20170809_195751.jpg');
+    background-image: url('./../Images/IMG_20170809_195751.jpg');
     background-position: center center;
     background-size: 140%;
     color: white;
@@ -42,7 +101,7 @@ h3 {
 
 .orangeHead {
     height: 42px;
-    background-color: #FD9007;
+    background-color: $primary-color;
     color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -101,7 +160,7 @@ label {
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#FD9007; 
+  background: $primary-color; 
   transition:0.2s ease all; 
 }
 .bar:before {
@@ -134,7 +193,7 @@ input:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @keyframes inputHighlighter {
-  from  { background:#FD9007; }
+  from  { background: $primary-color; }
   to    { width:0; background:transparent; }
 }
 
@@ -142,7 +201,7 @@ input:focus ~ .highlight {
  input:focus~ label, input:valid ~ label {
   top:-5px;
   font-size:14px;
-  color:#FD9007;
+  color:$primary-color;
 }
 
 .buttonForm {
@@ -172,6 +231,11 @@ input:focus ~ .highlight {
     color: #000000;
 }
 
+form a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /*/////////////////// MEDIA QUERIES /////////////////*/
 
 /*//// IPAD ////*/
@@ -191,7 +255,7 @@ input:focus ~ .highlight {
     }
 
     .containerForm {
-    padding: 0 150px;
+        padding: 0 150px;
     }
 }
 
@@ -201,11 +265,7 @@ input:focus ~ .highlight {
         padding: 0px;
     }
 
-    form {
-        width: 300px;
-    }
-
-    .formOptions {
+    .formOptions, form {
         width: 300px;
     }
 }
