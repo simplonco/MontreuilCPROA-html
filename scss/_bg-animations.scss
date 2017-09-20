@@ -1,0 +1,26 @@
+.cb-slideshow li span { 
+    width: 100%;
+    height: 728px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: top center;
+    background-repeat: none;
+    z-index: -1;
+    text-indent: -999px;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+
+$elements: 3;
+@for $i from 0 to $elements {
+    .cb-slideshow li:nth-child(#{$i}) span {
+        background-image: url('bg-' + $i + '.jpg'); 
+    }
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    33% { opacity: 1; animation-timing-function: ease-out; }
+    66% { opacity: 1 }
+    100% { opacity: 0 }
+}
