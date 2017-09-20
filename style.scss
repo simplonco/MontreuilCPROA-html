@@ -1,3 +1,5 @@
+@import "reset";
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $browser-context: 16; // Default
@@ -17,8 +19,12 @@ body {
   flex-direction: column;
   background-color: $green;
 
-  .header-website_name {
-      height: 30vh;
+  &-website_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+      
   }
 
   h1 {
@@ -26,10 +32,19 @@ body {
     color: white;
   }
 
-  .header-page_title {
+  &-page_title {
 
-    // height: 20%;
+    height: em(40);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
     background-color: $grey;
+    padding: 0 em(20);
+
+    // h3 {
+    //   text-align: right;
+    //   //display: block;
+    // }
   }
 }
 
@@ -44,7 +59,7 @@ body {
     font-size: em(14)
   }
 
-  .content-forget_mdp {
+  &-forget_mdp {
     font-size: em(14);
     color: #00BBD3;
   }
