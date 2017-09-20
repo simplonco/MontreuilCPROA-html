@@ -235,8 +235,9 @@ html, body {
           $twitter: #0093F3;
           $facebook: #434C98;
           $pinterest: #CD0026;
+          $orange: orange;
 
-          $colors : $facebook $twitter $pinterest;
+          $colors : $facebook $twitter $pinterest $orange;
           
           @each $color in $colors {
             $index: index($colors, $color);
