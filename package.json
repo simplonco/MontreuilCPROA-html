@@ -1,0 +1,25 @@
+{
+  "name": "simplon_css_maquette",
+  "version": "1.0.0",
+  "description": "Integrer une maquette en html / css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass-chokidar ./style.scss --output ./",
+    "sass-watch": "node-sass-chokidar ./style.scss --output ./ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hallya/MontreuilCPROA-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hallya/MontreuilCPROA-html/issues"
+  },
+  "homepage": "https://github.com/Hallya/MontreuilCPROA-html#readme",
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3",
+    "semantic-ui": "^2.2.13"
+  }
+}

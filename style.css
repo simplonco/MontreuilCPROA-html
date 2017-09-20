@@ -1,0 +1,214 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+                            PAGE INDEX
+/////////////////////////////////////////////////////////////////////////////////////////////////*/
+body {
+  height: 100vh; }
+
+a {
+  text-decoration: none;
+  color: #C2C2C2; }
+
+.container_sign_button {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+
+.sign_button {
+  background: #DEFFEC;
+  text-align: center;
+  width: 70%;
+  border-radius: 12px;
+  font-size: 5em;
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 20px 40px;
+  border: 3px solid #A1A1A1; }
+
+.sign_in {
+  order: 1; }
+
+.sign_up {
+  order: 0; }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+                            PAGE SIGN UP
+/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.page_sign_up {
+  display: flex;
+  justify-content: center; }
+
+.container_form_sign_up {
+  align-self: center;
+  height: 300px;
+  border-radius: 12px;
+  padding: 45px 32px 45px 5px;
+  width: 866px;
+  border: 3px solid #6FCF97;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-between;
+  align-items: center; }
+
+.container_form_sign_up .text_input {
+  font-size: 2em;
+  border: 2px solid #6FCF97;
+  margin: 30px 15px 30px 55px;
+  padding: 15px 45px;
+  width: 580px;
+  border-radius: 9px;
+  align-self: flex-start;
+  background-color: #DEFFEC;
+  order: 1; }
+
+.text_input::placeholder {
+  color: #959595; }
+
+.button_login {
+  width: 125px;
+  height: 125px;
+  margin-top: 90px;
+  border-radius: 50%;
+  order: 2; }
+
+.reminder {
+  order: 2;
+  font-size: 2em;
+  position: absolute;
+  margin: 290px 0 0 145px;
+  color: #6FCF97;
+  text-decoration: underline; }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+                            PAGE RESET PASSWORD
+/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.check_email {
+  font-size: 2em;
+  border: 2px solid #6FCF97;
+  margin: 30px 15px 30px 55px;
+  padding: 15px 45px;
+  width: 580px;
+  border-radius: 9px;
+  align-self: center;
+  background-color: #DEFFEC;
+  order: 2; }
+
+.container_form_reset {
+  align-self: center;
+  height: 250px;
+  border-radius: 12px;
+  padding: 45px 32px 45px 5px;
+  width: 866px;
+  border: 3px solid #6FCF97;
+  display: flex;
+  flex-flow: nowrap row;
+  align-items: center;
+  align-content: center;
+  justify-content: center; }
+
+.button_reset {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  order: 2;
+  align-self: center; }
+
+.container_notification {
+  position: absolute;
+  background: #DEFCFF;
+  width: 750px;
+  height: 85px;
+  margin: -229px 0 0 0px;
+  padding-bottom: 10px;
+  border-radius: 12px;
+  opacity: 1; }
+
+.text_notification {
+  font-size: 2em;
+  text-align: center;
+  color: #007F90;
+  font-family: Roboto; }
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+                            PAGE SIGN IN
+/////////////////////////////////////////////////////////////////////////////////////////////////*/
+.form_form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15% 0;
+  align-items: center; }
+
+.form_input {
+  font-size: 3em;
+  margin: 45px 3px;
+  border-radius: 12px;
+  border: 2px solid #C4C4C4;
+  width: 385px;
+  height: 100px;
+  padding-left: 30px;
+  text-align: center; }
+
+.form_input::placeholder {
+  color: #B8B8B8;
+  font-weight: 300; }
+
+.pseudo {
+  order: 1;
+  margin: -20px 0;
+  width: 730px; }
+
+.parent {
+  order: 2; }
+  .parent > div {
+    flex: 1; }
+
+.date {
+  order: 3;
+  width: 500px;
+  text-align: center;
+  margin: -20px 0;
+  color: #B8B8B8;
+  font-weight: 300; }
+
+.email {
+  order: 4;
+  width: 700px;
+  margin: 220px 0 115px 0; }
+
+.password {
+  order: 5;
+  width: 700px;
+  margin: -30px 0; }
+
+.verify_password {
+  order: 6;
+  width: 700px; }
+
+.submit_button {
+  order: 7;
+  width: 500px;
+  color: white;
+  background-color: #8A8A8A;
+  border: 2px solid #C4C4C4; }
+
+.container_newsletter {
+  order: 8;
+  display: flex; }
+
+.newsletter {
+  font-family: Roboto;
+  color: #6FCF97;
+  font-size: 3em;
+  font-weight: 300;
+  flex: 1; }
+
+.newsletter_checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  position: absolute;
+  margin: 60px 0 0 -58px;
+  flex: 1; }
