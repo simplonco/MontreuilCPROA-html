@@ -1,0 +1,67 @@
+@import "reset";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$browser-context: 16; // Default
+$green: #00BBD3;
+$grey: #FAFAFA;
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
+body {
+  font-family:  'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $green;
+
+  &-website_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+      
+  }
+
+  h1 {
+    font-size: em(24);
+    color: white;
+  }
+
+  &-page_title {
+
+    height: em(40);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: $grey;
+    padding: 0 em(20);
+
+    // h3 {
+    //   text-align: right;
+    //   //display: block;
+    // }
+  }
+}
+
+.content {
+
+  input {
+    border: none;
+    font-size: em(16)
+  }
+
+  div[role=button] {
+    font-size: em(14)
+  }
+
+  &-forget_mdp {
+    font-size: em(14);
+    color: #00BBD3;
+  }
+
+}

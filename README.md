@@ -19,3 +19,26 @@ Pour cette exercice, vous ne devez aucun framework css (bootstrap, materialize, 
 Vous pouvez utiliser tous les outils que vous voulez (webpack, gulp, node-sass, prefixer, ...)
 
 Bon courage !
+
+---------------------------
+
+## Utilisation de SASS avec Node-sass-chokidar
+
+npm init
+
+npm install --save node-sass-chokidar
+
+Dans package.json, ajouter une clé/valeur dans l'object "script" : 
+
+- cf. package.json
+
+"sass": "node-sass-chokidar ./style.scss --output ./",
+    
+"sass-watch": "node-sass-chokidar ./style.scss --output ./ --watch"
+
+ça permet de creer des fichier .css à partir de fichier .scss
+
+cf. doc : https://www.npmjs.com/package/node-sass-chokidar
+
+
+
