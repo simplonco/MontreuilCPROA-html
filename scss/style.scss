@@ -1,0 +1,153 @@
+@import "button";
+@import "media-queries";
+@import "prefix";
+
+/*var colors*/
+$color-placeholder: #CE2453;
+$color-placeholder-focus: blue;
+$color-button: #7045B9;
+
+/*base style*/
+@include placeholder($color-placeholder, $color-placeholder-focus);
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*my style*/
+body {
+  margin: 0 auto;
+  color: white;
+  font-size: 6px;
+  font-family: 'Roboto', sans-serif;
+
+  @include media($tablet) {
+    font-size: 10px;
+  }
+}
+
+.bgImage {
+  height: 100vh;
+  background-image: url("./../assets/city2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  visibility: visible;
+
+  .responsiv-menu {
+    height: 100%;
+    text-align: left;
+    width: 170px;
+    padding-left: 30px;
+  }
+
+  .responsiv-menu-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 40px;
+      cursor: pointer;
+    }
+  }
+}
+
+header {
+  height: 20%;
+  text-align: center;
+  font-size: 3em;
+}
+
+section {
+  height: 55%;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  height: 60%;
+}
+
+
+.field {
+  position: relative;
+  height: 30%;
+  padding: 16px 0 8px 0;
+  color: white;
+
+  &::after {
+    content:'';
+    height: 2px;
+    width: 100%;
+    position:absolute;
+    bottom:6;
+    left:0;
+    background-color: #e7e7e7;
+  }
+}
+
+.field-input {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 16px;
+  padding: 8px 0;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background-color: black;
+  opacity: 0.7;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+
+  &:required {
+    box-shadow: none;
+  }
+}
+
+.button-connect {
+  @include button($color-button);
+  width: 100%;
+  height: 10%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .bgImage {
+    background-image: url("./../assets/city_paysage2.jpg");
+  }
+  .content {
+    width: 60%;
+    margin: 0 auto;
+  }
+  nav {
+    visibility: hidden;
+  }
+}
