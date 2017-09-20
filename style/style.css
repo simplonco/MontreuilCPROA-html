@@ -120,7 +120,11 @@ header {
     margin-top: 3em;
 }
 
-.form-content input {
+.material-input {
+    position: relative;
+}
+
+.material-input input {
     border: none;
     width: 100%;
     margin-bottom: 3em;
@@ -129,22 +133,26 @@ header {
     padding: 1em 0;
 }
 
-.form-content input:focus {
+.material-input input:focus {
     border-bottom: 2px solid #009688;
 }
 
-.material-input {
-    position: relative;
-}
 
 .material-input label {
     position: absolute;
     font-size: 1em;
     top: 0.9em;
     color: #AAA;
-    transition: 0.3s ease;
+    transition: 0.2s ease all;
+    pointer-events: none;
 }
 
+.material-input input:focus ~ label {
+    top: 0em;
+    background-color: red;
+    color: #009688;
+    font-size: 0.8em;
+}
 
 .form-content button {
     background-color: #009688;
