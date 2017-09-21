@@ -1,0 +1,27 @@
+@include respond ($tablet) {
+  .marge_0{
+    max-width: 100%;
+  }
+  .co{
+    max-width: 100%;
+    height: 60px;
+    margin: 0 20px 0 20px;
+  }
+  .main{
+    max-width: 100%;
+    height: 90px;
+  }
+  .main input{
+    margin:   8px 15px 0 0 15px;
+    width:85%;
+  }
+  .butt{
+    margin: 20px 40px 0 40px;
+    max-width: 100%;
+    height: 40px;
+  }
+  .foot{
+    margin: 90px 0 0 90px;
+    height: 40px;
+  }
+}
