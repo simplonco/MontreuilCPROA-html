@@ -131,8 +131,6 @@ input {
     font-size: 7em; } }
 
 @media (max-width: 330px) {
-  body {
-    background-color: red; }
   .form_index {
     width: 296px; }
   input, .big {

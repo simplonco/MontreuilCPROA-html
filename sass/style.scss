@@ -173,10 +173,6 @@ input {
 }
 
 @media #{$phone} {
-    body {
-        background-color: red;
-    }
-
     .form_index {
         width: 296px;
     }
