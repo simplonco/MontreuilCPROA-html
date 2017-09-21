@@ -1,0 +1,55 @@
+footer {
+    background-color: $SECONDARY_COLOR;
+    display: none;
+
+    $colors : $facebook $twitter $pinterest;
+    $property : color;
+    @include giveColors($colors, $property);
+
+    ul {
+      list-style: none;
+    }
+
+    .footer-nav {
+      padding: 1em 3em;
+      display: flex;
+      justify-content: space-around;
+
+  
+        li:first-of-type {
+          color: $TEXT_FILL;
+          font-weight: bold;
+        }
+      
+        li a {
+          color: #AAA;
+          transition: 0.3s ease;
+      
+          &:hover {
+            color: $PRIMARY_COLOR;
+          }
+        }
+      }
+
+      .logo-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        ul {
+          display: flex;
+          padding: 1em;
+
+          .fa {
+            font-size: 1.5em;
+            margin-left: 1em;
+          }
+        }
+      }
+
+    hr {
+      background-color: #E0E0E0;
+      border: 0;
+      height: 1px;
+    }
+  }
+ 

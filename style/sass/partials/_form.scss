@@ -1,0 +1,67 @@
+
+  .form-container {
+    width: 100%;
+    @include respond-to(tablet) { width: 30em; }
+    @include respond-to(desktop) { width: 40em; }
+
+    .form-content {
+      @include flexColumn();
+      margin-bottom: 1em;
+      margin-top: 3em;
+
+      button {
+        background-color: $PRIMARY_COLOR;
+        border: none;
+        padding: 1em;
+        cursor: pointer;
+        border-radius: 2px;
+        color: $TEXT_FILL_LIGHT;
+        text-transform: uppercase;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+      }
+    }    
+  }
+    
+  .material-input {
+    position: relative;
+  
+  input {
+    border: none;
+    width: 100%;
+    margin-bottom: 3em;
+    background-color: transparent;
+    border-bottom: 2px solid #AAA;
+    padding: 1em 0;
+    outline: none;
+     
+    &:focus {
+        border-bottom: 2px solid $PRIMARY_COLOR; 
+    }
+
+    &:focus ~ label, &:valid ~ label {
+      top: 0em;
+      color:$PRIMARY_COLOR;
+      font-size: 0.8em;
+    }
+  }  
+    
+    label {
+      position: absolute;
+      font-size: 1em;
+      top: 0.9em;
+      color: #AAA;
+      transition: 0.2s ease all;
+      pointer-events: none;
+    }
+  }  
+ 
+  .link-bar {
+    display: flex;
+    justify-content: space-between;
+    
+    a {
+      color: $PRIMARY_COLOR;
+    }
+  }
+  

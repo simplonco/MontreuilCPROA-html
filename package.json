@@ -1,5 +1,5 @@
 {
-  "name": "MontreuilCPROA-html",
+  "name": "sass-exploration",
   "version": "1.0.0",
   "description": "Integrer une maquette en html / css",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass-chokidar ./style/style.scss --output ./style",
+    "sass": "node-sass-chokidar ./style/sass/style.scss --output ./style/css",
     "sass-watch": "npm run sass -- --watch"
   },
   "repository": {

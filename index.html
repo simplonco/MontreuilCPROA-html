@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Design Rules !</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
@@ -21,10 +21,10 @@
             </button>
             <nav class="main-nav">
                 <ul>
-                    <li><a class="col-1" href="">Home</a><span></span></li>
-                    <li><a class="col-2" href="">Offers</a><span></span></li>
-                    <li><a class="col-3" href="">About</a><span></span></li>
-                    <li><a class="col-4" href="" active>Login</a><span></span></li>
+                    <li><a href="">Home</a><span class="col-1"></span></li>
+                    <li><a href="">Offers</a><span class="col-2"></span></li>
+                    <li><a href="">About</a><span class="col-3"></span></li>
+                    <li><a href="" active>Login</a><span class="col-4"></span></li>
                 </ul>
             </nav>
         </div>
@@ -37,12 +37,12 @@
             <div class="form-container">
                 <form class="form-content" action="">
                     <div class="material-input">
+                        <input class="material-input" type="text" required/>
                         <label class="material-label" for="email">Email</label>
-                        <input class="material-input" type="text" name="email">
                     </div>
                     <div class="material-input">
+                        <input class="material-input" type="password" required/>
                         <label class="material-label" for="password">Password</label>
-                        <input class="material-input" type="password" name="password">
                     </div>
                     <button>Sign in</button>
                 </form>
