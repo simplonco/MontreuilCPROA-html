@@ -1,0 +1,24 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Integration mobile first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass-chokidar ./scss/style.scss --output ./css",
+    "sass-watch": " npm run sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gambadeur/MontreuilCPROA-html.git"
+  },
+  "author": "MB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gambadeur/MontreuilCPROA-html/issues"
+  },
+  "homepage": "https://github.com/Gambadeur/MontreuilCPROA-html#readme",
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3"
+  }
+}
