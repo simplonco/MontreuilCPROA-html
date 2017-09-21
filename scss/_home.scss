@@ -1,5 +1,8 @@
+// VARIABLE //
 
 $secondary-color : #ED7171;
+
+
 
 .headerHome {
     background-image: url('./../Images/IMG_20170815_195146.jpg');
@@ -32,6 +35,7 @@ $secondary-color : #ED7171;
 .text-intro {
     margin-top: 30px;
     font-size: 0.7em;
+    text-align: center;
 }
 
 .greenBar {
@@ -40,18 +44,43 @@ $secondary-color : #ED7171;
     border-radius: 40px;
     border: none;
     background: #468DBA;
-    margin: 30px;
+    margin: 20px 0px;
 }
 
 .containerCards {
     display: flex;
     justify-content: space-around;
+    width: 90%;
 }
 
 .containerCards {
     .card {
-        border: black solid 2px;
-        width: 100px;
-        height: 100px;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .fa {
+        color: $secondary-color;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 0.7em;
+    }
+}
+
+.textMain {
+    display: flex;
+    margin: 30px 0;
+    width: 90%;
+    font-size: 0.7em;
+    text-align: center;
+    justify-content: space-around;
+    p:first-child {
+        padding-right: 20px; 
+    }
+    p:nth-child(2) {
+        padding-left: 20px; 
     }
 }
