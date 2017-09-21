@@ -142,14 +142,11 @@ input:focus ~ .highlight {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: top center;
-  background-repeat: none;
+  background-position: top center;
+  background-repeat: no-repeat;
   z-index: -1;
   text-indent: -999px;
-  animation: imageAnimation 36s linear infinite 0s; }
-
-.cb-slideshow li:nth-child(0) span {
-  background-image: url("bg-0.jpg"); }
+  animation: imageAnimation 24s linear infinite 0s; }
 
 .cb-slideshow li:nth-child(1) span {
   background-image: url("bg-1.jpg"); }
@@ -157,24 +154,31 @@ input:focus ~ .highlight {
 .cb-slideshow li:nth-child(2) span {
   background-image: url("bg-2.jpg"); }
 
+.cb-slideshow li:nth-child(3) span {
+  background-image: url("bg-3.jpg"); }
+
+.cb-slideshow li:nth-child(4) span {
+  background-image: url("bg-4.jpg"); }
+
 @keyframes imageAnimation {
   0% {
-    opacity: 0;
-    animation-timing-function: ease-in; }
-  33% {
-    opacity: 1;
-    animation-timing-function: ease-out; }
-  66% {
     opacity: 1; }
+  17% {
+    opacity: 1; }
+  25% {
+    opacity: 0; }
+  92% {
+    opacity: 0; }
   100% {
-    opacity: 0; } }
+    opacity: 1; } }
 
 a {
   color: #000;
   text-decoration: none; }
 
 .container {
-  background: url("bg-1.jpg") no-repeat top center #000;
+  background: #000;
+  /*background: url('bg-0.jpg') no-repeat top center #000;*/
   height: 720px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto; }
