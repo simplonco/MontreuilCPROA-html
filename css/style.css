@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white; }
+
+.header {
+  background-color: #700059;
+  height: 200px;
+  text-align: center; }
+
+.bande {
+  background-color: #dadada;
+  height: 50px; }
+  .bande h1 {
+    color: #700059;
+    font-size: 20px;
+    padding-top: 15px;
+    text-align: center; }
+
+.info {
+  text-align: center; }
+
+input {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+.formulaire {
+  max-width: 70%;
+  text-align: center;
+  margin: auto; }
+
+#infos {
+  font-size: 20px;
+  margin-top: 50px;
+  border: 0;
+  border-bottom: 2px solid #7e006e; }
+
+#bouton {
+  color: #7e006e;
+  background-color: #dadada;
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  margin: auto; }
+
+img {
+  height: 100px;
+  width: 100px;
+  padding-top: 40px; }
+
+p {
+  font-size: 13px;
+  color: #7e006e;
+  margin-top: 30px;
+  text-align: center; }
+
+@media screen and (min-width: 1024px) {
+  .header {
+    background-color: #dadada; }
+  .bande {
+    background-color: #700059; }
+  h1 {
+    color: #dadada; } }
+
+@media screen and (min-width: 520px) {
+  .formulaire {
+    width: 30%; } }
+
+@media screen and (min-width: 1024px) {
+  .formulaire {
+    width: 30%; } }
