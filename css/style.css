@@ -16,6 +16,7 @@ body {
   .bande h1 {
     color: #700059;
     font-size: 20px;
+    font-family: 'Hammersmith One', sans-serif;
     padding-top: 15px;
     text-align: center; }
 
@@ -55,14 +56,13 @@ img {
 p {
   font-size: 13px;
   color: #7e006e;
+  font-family: 'Hammersmith One', sans-serif;
   margin-top: 30px;
   text-align: center; }
 
 @media screen and (min-width: 1024px) {
   .header {
     background-color: #dadada; }
-  .bande {
-    background-color: #700059; }
   h1 {
     color: #dadada; } }
 
