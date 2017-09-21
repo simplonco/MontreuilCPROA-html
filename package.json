@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass-chokidar ./style.scss --output ./"
+    "sass": "node-sass-chokidar ./css/style.scss --output ./",
+    "sass-watch": "npm run sass -- --watch"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,6 @@
   },
   "homepage": "https://github.com/nsta-nicolas/MontreuilCPROA-html#readme",
   "dependencies": {
-    "chokidar": "^1.7.0",
     "node-sass-chokidar": "0.0.3"
   }
 }
