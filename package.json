@@ -1,0 +1,24 @@
+{
+  "name": "sass_maquette",
+  "version": "1.0.0",
+  "description": "Integrer une maquette en html / css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass-chokidar ./scss/style.scss --output ./css",
+    "sass-watch": "npm run sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doucos/MontreuilCPROA-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doucos/MontreuilCPROA-html/issues"
+  },
+  "homepage": "https://github.com/Doucos/MontreuilCPROA-html#readme",
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3"
+  }
+}
