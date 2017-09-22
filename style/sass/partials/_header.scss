@@ -1,0 +1,95 @@
+header {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-header {
+    background-color: $PRIMARY_COLOR;
+    display: flex;
+    justify-content: space-between;
+    color: $TEXT_FILL_LIGHT;
+    padding: 1em;
+    height: 25vh;
+    z-index: 10;
+  }
+  
+  .main-header h1 {
+    margin: 0;
+    align-self: flex-end;
+    font-size: 2em;
+  }
+  
+  .main-nav {
+    display: none;
+    @include respond-to(desktop) { display: block; }
+
+    $colors : #79dfdc #bcb0f2 #f0e1ba #f0baba;
+    $property : background-color;
+    @include giveColors($colors, $property);
+ 
+    ul {
+      display: flex;
+    }
+    
+    li {
+      @include flexColumn();
+      align-items: center;
+      margin-right: 1em;
+
+      &:hover span {
+        width: 100%;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #E5E5E5;
+        text-transform: uppercase;
+        transition: 0.2s ease;
+
+        &:hover, &:active {
+          color: $TEXT_FILL_LIGHT;
+        }
+      }
+      
+      span {
+        position: relative;
+        height: 2px;
+        margin-top: 0.3em;
+        background-color: $TEXT_FILL_LIGHT;
+        width: 0%;
+        transition: 0.3s ease;
+      }
+    }   
+  }
+  
+
+  .burger-menu {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: transparent;
+    border: none;
+    @include respond-to(desktop) { display: none; }
+  
+    .menu-bar {
+      width: 2.5em;
+      height: 0.25em;
+      margin-bottom: 0.5em;
+      background-color: $TEXT_FILL_LIGHT;
+    }
+  }
+  
+  
+  .page-title-container {
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $SECONDARY_COLOR;
+    padding: 0 1em;
+
+    h2 {
+      font-size: 1.2em;
+      color: $TEXT_FILL;
+      margin: 1em 0;
+      font-weight: bold;
+    }
+  }
+  

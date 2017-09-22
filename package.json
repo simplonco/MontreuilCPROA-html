@@ -1,0 +1,31 @@
+{
+  "name": "sass-exploration",
+  "version": "1.0.0",
+  "description": "Integrer une maquette en html / css",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^7.1.4",
+    "fsevents": "^1.1.2",
+    "node-sass-chokidar": "0.0.3",
+    "postcss-cli": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass-chokidar ./style/sass/style.scss --output ./style/css",
+    "sass-watch": "npm run sass -- --watch",
+    "prefix": "postcss style/css/style.css --use autoprefixer -d style/build/",
+    "prefix-watch": "npm run prefix -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulPourtout/MontreuilCPROA-html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulPourtout/MontreuilCPROA-html/issues"
+  },
+  "homepage": "https://github.com/PaulPourtout/MontreuilCPROA-html#readme"
+}

@@ -1,0 +1,23 @@
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@mixin giveColors($colors, $property) {
+    @each $color in $colors {
+        $index: index($colors, $color);
+        .col-#{$index} {
+            #{$property}: $color;
+        }        
+    }
+}
+
+@mixin respond-to($media) {
+    @if $media == tablet {
+        @media screen and (min-width: $BREAK-TABLET) { @content; }
+    }
+    @else if $media == desktop {
+        @media screen and (min-width: $BREAK-DESKTOP) { @content; }
+    }
+}

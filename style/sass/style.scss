@@ -1,0 +1,41 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/form";
+
+
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+  
+body {
+  height: 100vh;
+  @include flexColumn();
+}
+
+ul {
+  list-style: none;
+}
+
+
+.page-style {
+  padding: 0 2em;
+  flex: 1;
+}
+
+
+.center-children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+  
+  /*# sourceMappingURL=style.css.map */
+  
