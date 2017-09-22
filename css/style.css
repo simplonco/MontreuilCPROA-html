@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0; }
 
+/*Violet*/
+/*Gris*/
+/*Rose*/
 body {
   background-color: white; }
 
 .header {
-  background-color: #700059;
+  background-color: #7e006e;
   height: 200px;
   text-align: center; }
 
@@ -14,7 +17,7 @@ body {
   background-color: #dadada;
   height: 50px; }
   .bande h1 {
-    color: #700059;
+    color: #7e006e;
     font-size: 20px;
     font-family: 'Hammersmith One', sans-serif;
     padding-top: 15px;
@@ -38,7 +41,7 @@ input {
   font-size: 20px;
   margin-top: 50px;
   border: 0;
-  border-bottom: 2px solid #7e006e; }
+  border-bottom: solid #7e006e; }
 
 #bouton {
   color: #7e006e;
@@ -64,7 +67,9 @@ p {
   .header {
     background-color: #dadada; }
   h1 {
-    color: #dadada; } }
+    color: #dadada; }
+  body {
+    background-color: #c12466; } }
 
 @media screen and (min-width: 520px) {
   .formulaire {
