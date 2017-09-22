@@ -20,6 +20,7 @@ header {
   
   .main-nav {
     display: none;
+    @include respond-to(desktop) { display: block; }
 
     $colors : #79dfdc #bcb0f2 #f0e1ba #f0baba;
     $property : background-color;
@@ -66,6 +67,7 @@ header {
     width: 2.5em;
     background-color: transparent;
     border: none;
+    @include respond-to(desktop) { display: none; }
   
     .menu-bar {
       width: 2.5em;

@@ -6,6 +6,7 @@ footer {
     $property : color;
     @include giveColors($colors, $property);
 
+    @include respond-to(desktop) { display: block; }
     ul {
       list-style: none;
     }

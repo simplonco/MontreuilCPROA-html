@@ -7,53 +7,34 @@
 
 
 html, body {
-    margin: 0;
-    font-family: sans-serif;
-  }
+  margin: 0;
+  font-family: sans-serif;
+}
   
-  body {
-    height: 100vh;
-    @include flexColumn();
-  }
+body {
+  height: 100vh;
+  @include flexColumn();
+}
+
+ul {
+  list-style: none;
+}
 
 
-
-  ul {
-    list-style: none;
-  }
-  
-
-  .page-style {
-    padding: 0 2em;
-    flex: 1;
-  }
-
-  
-  .center-children {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+.page-style {
+  padding: 0 2em;
+  flex: 1;
+}
 
 
-  @media (min-width: 1150px) {
-    .burger-menu {
-      display: none;
-    }
-  
-    .main-nav {
-      display: block;
-    }
-  
-    .form-content button:hover {
-      background-color: $PRIMARY_COLOR;
-    }
-  
-    footer {
-      display: block;
-    }
-  }
+.center-children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
   
   /*# sourceMappingURL=style.css.map */
   
